@@ -3,10 +3,6 @@ from .Autoformer import Model as Autoformer
 from .Crossformer import Model as Crossformer
 from .DecompSSM import Model as DecompSSM
 from .DecompSSM import Model as DecompSSMV2
-from .DeepMLPDecomposition import Model as DeepMLPDecomposition
-from .DeepS5Decomposition import Model as DeepS5Decomposition
-from .DeepS5DecompositionV2 import Model as DeepS5DecompositionV2
-from .DeepSSMDecomposition import Model as DeepSSMDecomposition
 from .DLinear import Model as DLinear
 from .ETSformer import Model as ETSformer
 from .FEDformer import Model as FEDformer
@@ -45,10 +41,6 @@ __all__ = [
     "Crossformer",
     "DecompSSM",
     "DecompSSMV2",
-    "DeepSSMDecomposition",
-    "DeepMLPDecomposition",
-    "DeepS5Decomposition",
-    "DeepS5DecompositionV2",
     "DLinear",
     "ETSformer",
     "FEDformer",
