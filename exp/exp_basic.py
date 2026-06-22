@@ -10,10 +10,6 @@ from models import (
     Crossformer,
     DecompSSM,
     DecompSSMV2,
-    DeepMLPDecomposition,
-    DeepS5Decomposition,
-    DeepS5DecompositionV2,
-    DeepSSMDecomposition,
     DLinear,
     ETSformer,
     FEDformer,
@@ -76,10 +72,6 @@ class Exp_Basic:
             "Spacetime": Spacetime,
             "DecompSSM": DecompSSM,
             "DecompSSMV2": DecompSSMV2,
-            "DeepSSMDecomposition": DeepSSMDecomposition,
-            "DeepMLPDecomposition": DeepMLPDecomposition,
-            "DeepS5Decomposition": DeepS5Decomposition,
-            "DeepS5DecompositionV2": DeepS5DecompositionV2,
         }
 
         self.device = self._acquire_device()
