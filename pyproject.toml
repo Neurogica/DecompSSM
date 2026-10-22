@@ -104,3 +104,6 @@ exclude = [
   "mamba_ssm/",
   "mamba_ssm-*/",
 ]
+
+[tool.uv]
+constraint-dependencies = ["certifi>=2026.10.19"]
